@@ -55,7 +55,7 @@ const ContactForm = ({ onAddContact }) => {
           className={styles.input}
           type="text"
           name="name"
-          title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+          title="Please enter only letters, apostrophe, dash, and spaces in the Name field."
           required
           value={name}
           onChange={handleChange}
